@@ -1,0 +1,13 @@
+#### RC firmware ####
+
+on post-fs-data
+    mkdir /data/vendor/firmware 0770 system system
+    copy /vendor/firmware/ARTL8752CRF-1515-4656_OTA_V2.5.4873.220107.bin /data/vendor/firmware/ARTL8752CRF-1515-4656_OTA_V2.5.4873.220107.bin
+    copy /vendor/firmware/ARTL8752CRF-1510-3759_OTA_V2.0.4870.220110.bin /data/vendor/firmware/ARTL8752CRF-1510-3759_OTA_V2.0.4870.220110.bin
+    copy /vendor/firmware/ARTL8752CRF-1510-3759_OTA_V1.7.4870.210915.bin /data/vendor/firmware/ARTL8752CRF-1510-3759_OTA_V1.7.4870.210915.bin
+    copy /vendor/firmware/ARTL8752CRF-1515-4263_OTA_V2.4.4872.220223.bin /data/vendor/firmware/ARTL8752CRF-1515-4263_OTA_V2.4.4872.220223.bin
+    chmod 0644 /data/vendor/firmware/ARTL8752CRF-1515-4656_OTA_V2.5.4873.220107.bin
+    chmod 0644 /data/vendor/firmware/ARTL8752CRF-1510-3759_OTA_V2.0.4870.220110.bin
+    chmod 0644 /data/vendor/firmware/ARTL8752CRF-1510-3759_OTA_V1.7.4870.210915.bin
+    chmod 0644 /data/vendor/firmware/ARTL8752CRF-1515-4263_OTA_V2.4.4872.220223.bin
+    restorecon_recursive /data/vendor/firmware

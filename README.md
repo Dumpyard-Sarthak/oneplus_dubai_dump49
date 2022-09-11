@@ -1,0 +1,14 @@
+# OnePlusTV-user 11 RTM1.210315.027 2206220509 release-keys
+- manufacturer: 
+- platform: mt5867
+- codename: Dubai
+- flavor: Dubai_eu-user
+- release: 11
+- id: RTM1.210315.027
+- incremental: 2206220509
+- tags: release-keys
+- fingerprint: OnePlus/OnePlusTV/Dubai:11/RTM1.210315.027/2206220509:user/release-keys
+- is_ab: true
+- brand: OnePlus
+- branch: OnePlusTV-user-11-RTM1.210315.027-2206220509-release-keys
+- repo: oneplus_dubai_dump49
